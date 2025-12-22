@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 notingscm-history-item:x%3A%5Cunlock%20project%5Cfrontend-bootcamp-day1?%7B%22repositoryId%22%3A%22scm0%22%2C%22historyItemId%22%3A%22c59910e176c7936ac4d64e9bc7e68953813fc603%22%2C%22historyItemParentId%22%3A%22a2f34e3d7b68727bb4e3110a431e32d2e5634316%22%2C%22historyItemDisplayId%22%3A%22c59910e%22%7D
 =======
 noting
+>>>>>>> bug-fixs
+=======
+noting addd no one
 >>>>>>> bug-fixs
