@@ -183,32 +183,58 @@ input, select, textarea {
   resize: vertical;
 }
 #icons{
-    padding: 20px;
+    padding: 10px;
+
+    
+   
 }
 #icons i{
     gap: 10px;
     color: white;
-    font-size: 24px;
+    font-size: 50px;
     margin-left: 15px;
     transition: all 0.3s ease;
+     animation-name: icons;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 95%;
+    
 }
 
 #icons a{
     color: rgb(0, 0, 0);
+    
+    
 }
 
 #icons i:hover{
-    transform: scale(1.2);
+    transform: scale(3);
     color: #31cbff;
+   
 }
-
+/* 
 @keyframes myAnimation {
   0%   {background-color:red; left:0px; top:0px;}
   25%  {background-color:yellow; left:700px; top:0px;}
   50%  {background-color:blue; right:500px; top:500px;}
   75%  {background-color:green; left:1000px; top:100px;}
   100% {background-color:red; left:50px; top:0px;}
+} */
+
+@keyframes myAnimation {
+  0%   {background-color:rgb(64, 5, 126);left:0px; top:0px;}
+   10% {background-color:rgb(116, 0, 21); left:700px; top:0px}
+    20%  {background-color:rgb(183, 211, 0); right:500px; top:500px;}
+    30%  {background-color:rgb(255, 0, 242);left:1000px;top:1000px }
+    40%  {background-color:rgb(0, 255, 60); left: 500px; top:300px; }
+    50%  {background-color:rgb(255, 166, 0); right:700px; top:100px; }
+    60%  {background-color:rgb(255, 0, 153); left: 500px; top:0px; }
+    70%  {background-color:rgb(0, 159, 87); left:200px; top:200px;}
+    80%  {background-color:rgb(255, 213, 0);right:700px; top:400px; }
+    90%  {background-color:rgb(255, 0, 0);right: 100px;top: 100px; }
+    100% {background-color:rgb(47, 0, 255); left:0px; top:0px; } 
 }
+
 
 @keyframes oname {
    0%   {background-color:red; }
@@ -231,7 +257,16 @@ input, select, textarea {
     to {
         transform: rotate(360deg);
     }
+
+    0% {transform: translateX(0);} 
+   25% {transform: translateX(-50px);}
+    50% {transform: translateY(-50);}
+    75% {transform: translateX(100px);}
+    100% {transform: translateY(-50px);}
 }
+
+
+
 
 
 @keyframes run {
@@ -246,4 +281,18 @@ input, select, textarea {
     80% {transform: translateY(-50px);}
     90% {transform: translateX(25px);}
     100% {transform: translateX(0);}
+}
+
+@keyframes icons {
+   0%   {color: red; }
+   10% {color: orange;}
+    20%  {color: yellow;}
+    30%  {color: green; }
+    40%  {color: blue; }
+    50%  {color: indigo; }
+    60%  {color: violet; }
+    70%  {color: pink;}
+    80%  {color: brown; }
+    90%  {color: grey; }
+    100% {color: red; }
 }
