@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nikhil Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+  />
+</head>
+<body>
+
+  <header>
+    <div id="logo">
+      <img
+        src="https://imgs.search.brave.com/FGeMO2rO5mkhPFwE9cibVYcKih7YGYW8PznA3NzZ52k/rs:fit:860:0:0:0/g:ce/aHR0cDovL2xvZ29z/LnRleHRnaXJhZmZl/LmNvbS9sb2dvcy9s/b2dvLW5hbWUvTmlr/aGlsLWRlc2lnbnN0/eWxlLWZyaWRheS1t/LnBuZw"
+        alt="logo"
+      />
+    </div>
+ 
+    <nav id="nav-menu">
+      <ul>
+        <li  ><a href="#">Home</a></li>
+        <li ><a href="#">About</a></li>
+        <li ><a href="#">Services</a></li>
+        <li ><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <a href="javascript:void(0);" onclick=MyFunction()>
+        <i id="mean" class="fa-solid fa-bars"></i>
+    </a>
+    
+  </header>
+
+  <main>
+    <div id="profile-pic">
+      <img id="myimg" src="pf2.jpg" alt="profile" />
+    </div>
+
+    <div id="aboutme">
+      <h1 style="color: rgb(255, 242, 0);">ABOUT <span>ME</span></h1>
+      <p style="font-size: larger; color: darkturquoise;">Hello! I'm Nikhil Nishad, a passionate web developer.</p>
+
+      <ul class="skills">
+        <li class="skill">HTML</li>
+        <li class="skill">CSS</li>
+        <li class="skill">JavaScript</li>
+        <li class="skill">React</li>
+        <li class="skill">Node.js</li>
+        <li class="skill">MongoDB</li>
+        <li class="skill">Git</li>
+        <li class="skill">GitHub</li>
+        <li class="skill">C++</li>
+        <li class="skill">JAVA</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <section class="contact">
+      <div class="form-container">
+        <form>
+          <label>First Name</label>
+          <input type="text" placeholder="Your name" />
+
+          <label>Last Name</label>
+          <input type="text" placeholder="Your last name" />
+
+          <label>Message</label>
+          <textarea placeholder="Write something..."></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+
+     <div id="icons">
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:nikhilnishad123@gmail.com">
+        <i class="fa-regular fa-message"></i>
+      </a>
+    </div>
+
+    <p class="copyright">
+      © 2024 Unlock Nik. All rights reserved.
+    </p>
+  </footer>
+         <script src="./index.js"></script>
+</body>
+</html>
