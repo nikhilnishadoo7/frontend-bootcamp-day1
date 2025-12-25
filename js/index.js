@@ -1,117 +1,117 @@
-// // console.log("Hello, World!");
+// console.log("Hello, World!");
 
-// // let age = 25;
-// // age = 26; // valid
+// let age = 25;
+// age = 26; // valid
 
-// // const name = "Chetan";
+// const name = "Chetan";
 
 // // let title = "Frontend Bootcamp"; // string
-// // let score = 90; // number
-// // let isActive = true; // boolean
-// // let noValue = null; // null
-// // let notSet; // undefined
+// let score = 90; // number
+// let isActive = true; // boolean
+// let noValue = null; // null
+// let notSet; // undefined
 
 
-// // let sum = 10 + 5;
-// // let diff = 10 - 5;
-// // let mul = 10 * 5;
-// // let div = 10 / 5;
+// let sum = 10 + 5;
+// let diff = 10 - 5;
+// let mul = 10 * 5;
+// let div = 10 / 5;
 
 
-// // let marks = 85;
+// let marks = 85;
 
-// // if (marks >= 90) {
-// //   console.log("A Grade");
-// // } else if (marks >= 75) {
-// //   console.log("B Grade");
-// // } else {
-// //   console.log("C Grade");
-// // }
+// if (marks >= 90) {
+//   console.log("A Grade");
+// } else if (marks >= 75) {
+//   console.log("B Grade");
+// } else {
+//   console.log("C Grade");
+// }
 
-// // let role = "admin";
+// let role = "admin";
 
-// // switch (role) {
-// //   case "admin":
-// //     console.log("Full access");
-// //     break;
-// //   case "user":
-// //     console.log("Limited access");
-// //     break;
-// //   default:
-// //     console.log("No access");
-// // }
+// switch (role) {
+//   case "admin":
+//     console.log("Full access");
+//     break;
+//   case "user":
+//     console.log("Limited access");
+//     break;
+//   default:
+//     console.log("No access");
+// }
 
-// // function greet() {
-// //   console.log("Hello Developer!");
-// // }
+// function greet() {
+//   console.log("Hello Developer!");
+// }
 
-// // greet();
-
-
-// // function add(a, b) {
-// //   return a + b;
-// // }
-
-// // console.log(add(10, 20));
-
-// // const fruits = ["Apple", "Banana", "Mango"];
-
-// // console.log(fruits[0]); 
-
-// // fruits.push("Orange");
-// // console.log(fruits);
-// // fruits.pop(); 
-// // console.log(fruits);
-// // fruits.shift(); 
-// // console.log(fruits);
-// // fruits.unshift("Kiwi"); 
-// // console.log(fruits);
-// // fruits.includes("Mango"); 
-// // console.log(fruits);
+// greet();
 
 
-// // const student = {
-// //   name: "Arjun",
-// //   age: 22,
-// //   course: "Frontend",
-// // };
-// // console.log(student);
-// // console.log(student.name); 
-// // student.age = 23;
-// // console.log(student);
-// // student.grade = "A";
-// // console.log(student);
+// function add(a, b) {
+//   return a + b;
+// }
 
-// // function inEven(b){
-// //     console.log("In Event", b);
-// // }
+// console.log(add(10, 20));
 
+// const fruits = ["Apple", "Banana", "Mango"];
 
-// // let a =true;
-// // inEven(a);
+// console.log(fruits[0]); 
 
-
-
-// // let arr = ["kkr","pk","ipl","rcb","csk"];
-// // for(let i=0;i<arr.length;i++){
-// //     if(arr[i]=== arr[0] || arr[i]=== arr[4]){
-// //         console.log(arr[i]);
-// //     }
-// // }
+// fruits.push("Orange");
+// console.log(fruits);
+// fruits.pop(); 
+// console.log(fruits);
+// fruits.shift(); 
+// console.log(fruits);
+// fruits.unshift("Kiwi"); 
+// console.log(fruits);
+// fruits.includes("Mango"); 
+// console.log(fruits);
 
 
-// // const car ={
-// //     name:"BMW",
-// //     model:"X5",
-// //     year:2020
-// // }
+// const student = {
+//   name: "Arjun",
+//   age: 22,
+//   course: "Frontend",
+// };
+// console.log(student);
+// console.log(student.name); 
+// student.age = 23;
+// console.log(student);
+// student.grade = "A";
+// console.log(student);
 
-// // car.key="value";
-// // console.log(car);
+// function inEven(b){
+//     console.log("In Event", b);
+// }
 
-// // for (let i=0;i<51;i++){
-// //     console.log(i);
-// // }
+
+// let a =true;
+// inEven(a);
+
+
+
+// let arr = ["kkr","pk","ipl","rcb","csk"];
+// for(let i=0;i<arr.length;i++){
+//     if(arr[i]=== arr[0] || arr[i]=== arr[4]){
+//         console.log(arr[i]);
+//     }
+// }
+
+
+// const car ={
+//     name:"BMW",
+//     model:"X5",
+//     year:2020
+// }
+
+// car.key="value";
+// console.log(car);
+
+// for (let i=0;i<51;i++){
+//     console.log(i);
+// }
 
 
 // const title = document.getElementById("title");
@@ -147,3 +147,55 @@
 // document.getElementById("child").addEventListener("click", () => {
 //   console.log("Child clicked");
 // });
+
+// function parentClick() {
+//   alert("Parent clicked");
+// }
+
+// function childClick(event) {
+//   event.stopPropagation();
+//   alert("Child clicked");
+// }
+
+// const form = document.getElementById("loginForm");
+
+// form.addEventListener("submit", function (event) {
+//   event.preventDefault(); 
+
+//   const user = document.getElementById("username").value.trim();
+//   const pass = document.getElementById("password");
+
+//   if (!user || !pass) {
+//     alert("All fields are required.");
+//     return;
+//   }
+
+//   if (pass.length < 6) {
+//     alert("Password must be at least 6 characters.");
+//     return;
+//   }
+
+//   alert("Login successful!");
+//   window.location.reload();
+// });
+
+
+
+const n1 = document.getElementById("num1");
+const n2 = document.getElementById("num2");
+const btn = document.getElementById("add");
+const res = document.getElementById("result");
+
+btn.addEventListener("click", function () {
+  const a = n1.value.trim();
+  const b = n2.value.trim();
+
+  if (!a || !b) {
+    alert("Please enter both numbers.");
+    return;
+  }
+
+  const sum = Number(a) + Number(b);
+  res.textContent = "Result: " + sum;
+  
+});

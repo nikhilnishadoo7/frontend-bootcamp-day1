@@ -13,6 +13,25 @@
  <input type="text" id="username">
  <button id="parent">Parent</button>
  <button id="child">Child</button>
+
+ <div onclick="parentClick()">
+  <button onclick="childClick(event)">Click me</button>
+</div>
+
+<div class="calculator">
+  <input type="number" id="num1" placeholder="Number 1" />
+  <input type="number" id="num2" placeholder="Number 2" />
+  <button id="add">Add</button>
+  <p id="result">Result:</p>
+</div>
+
+
+
+<form id="loginForm">
+  <input type="text" id="username" placeholder="Username" />
+  <input type="password" id="password" placeholder="Password" />
+  <button type="submit">Login</button>
+</form>
 <script src="index.js"></script>
 </body>
 </html>
