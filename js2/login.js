@@ -16,8 +16,13 @@ loginForm.addEventListener('submit', (e) => {
     if (storedEmail == loginEmail.value && storedPassword == loginPassword.value) {
         alert("Login successful!");
          localStorage.clear();
+          loginEmail.value = "";
+         loginPassword.value = "";
+
     } else {
         alert("Invalid email or password.");
+         loginEmail.value = "";
+         loginPassword.value = "";
+         console.log("Cleared login fields.");
     }
-   
 });

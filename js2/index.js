@@ -17,7 +17,7 @@ let storedPassword = JSON.parse(localStorage.getItem("ppassword"));
 
 console.log("Stored Email:", storedEmail.email);
 console.log("Stored Password:", storedPassword.pass);
-//   window.location.href = "loginpage.html";
-});
  
-// localStorage.clear();
+  window.location.href = "./loginpage.html";
+});
+localStorage.clear();
